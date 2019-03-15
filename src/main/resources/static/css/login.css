@@ -1,0 +1,614 @@
+.toggleSidenav {
+	position: relative;
+    padding: 5px 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+	background-color: transparent;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px
+}
+
+.toggleSidenav:focus {
+	outline: 0
+}
+
+.toggleSidenav:hover {
+ background-color: #6f8088;
+}
+.toggleSidenav .icon-bar {
+	display: block;
+	width: 22px;
+	height: 2px;
+	border-radius: 1px
+}
+
+.toggleSidenav .icon-bar+.icon-bar {
+	margin-top: 4px
+}
+
+.toggleSidenav .icon-bar {
+	background-color: white;
+}
+ @media (max-width:768px) {
+	.toggleSidenav {
+		display: none
+	}
+} 
+
+.ajax-loader {
+     visibility: hidden;
+     background-color: rgb(255, 255, 255);
+     position: absolute;
+     z-index: +100 !important;
+     width: 100%;
+     height:100%;
+     overflow: auto;
+}
+
+html {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.hidden {
+  display: none;
+}
+
+.form-control {
+    font-size: 13px!important;
+}
+.row label{
+  margin-top:7px;
+}
+
+accordion .panel-heading {
+	padding: 7px 12px !important;
+}
+
+.monthly_panel .panel-heading a{
+	color:white;
+}
+.monthly_panel .panel-heading a:hover{
+	text-decoration:none;
+     font-size:16px;
+}
+
+ .alert,.vendorAlert,.roleAlert,.flmHistAlert,.holidayAlert,.allowanceAlert,.financeExcelAlert,.trackAlert,.excelAlert,.projMapAlert{
+     padding: 10px !important;
+     margin-top: 10px !important;
+     margin-bottom: 10px !important;
+     border-radius:3px !important;
+}
+ table.dataTable th:active {
+     outline: none;
+}
+ .btn:hover {
+     background: #37b4ec;
+     color: white !important;
+     box-shadow: 4px 4px #999;
+}
+ .btn:active {
+     box-shadow: 2px 2px #666;
+     transform: translateY(2px);
+}
+ .login .btn:hover{
+     box-shadow: 0px 0px #999 !important;
+}
+ table th,table td{
+     vertical-align:middle !important;
+}
+ .shiftTime thead{
+     border-bottom:1px solid;
+}
+ .ajax-loader img {
+     height:50px;
+     position: relative;
+     top:50%;
+     margin:0 auto;
+}
+ ::-ms-clear {
+     display: none;
+}
+ .form-control-clear {
+     z-index: 10 !important;
+     pointer-events: auto !important;
+     cursor: pointer;
+     left: 82%;
+}
+ #tripForm .form-control-clear{
+     left: 77% !important;
+}
+ .vendorDiv .btn-xs{
+     margin:2px;
+}
+/* @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"; */
+
+ body{
+     background-color: white !important;
+     color:#1a3a4a !important;
+     font-size:13px!important;
+}
+ disabled{z	z	
+     cursor:not-allowed !important;
+}
+ input:required:invalid,select:required:invalid,textarea:required:invalid{
+     outline:none;
+}
+ input[type="checkbox"]{
+     cursor:pointer !important;
+}
+ input[type="radio"]:disabled:hover,input[type="checkbox"]:disabled:hover{
+     cursor:not-allowed !important;
+}
+ input[data-readonly] {
+     pointer-events: none;
+}
+ .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+     background-color: #fffcfc !important;
+}
+ hr{
+     border-top: 1px solid #1a3a4a;
+}
+ #History label,#Upcoming label,#Daily label{
+     padding:0px 4px;
+}
+ #History,#Upcoming,#Daily{
+     text-align:right;
+}
+ #flmUpcomingTable_filter,#flmHistoryTable_filter,#flmDailyTable_filter{
+     padding: 8px 5px;
+}
+/*  #flmDailyPanel .buttons-excel{
+     display:none;
+} */
+ .dt-buttons{
+     padding: 0px 5px;
+}
+/*-----------tab---------*/
+ .tab {
+     border:1px solid #31708e;
+     border-radius:3px;
+     overflow: hidden;
+     background-color: #f1f1f1;
+}
+/* Style the buttons inside the tab */
+ .tab button {
+     background-color: inherit;
+     float: left;
+     border: none;
+     outline: none;
+     cursor: pointer;
+     padding: 10px;
+     transition: 0.3s;
+     font-size: 17px;
+}
+/* Change background color of buttons on hover */
+ .tab button {
+     border-radius:1px;
+     border-right:0.5px solid #31708e ;
+     background-color: #1a3a4a38;
+     color: #1a3a4a;
+}
+ .tab button:hover,.tab button.active:hover {
+    /* font-size:18px;
+     */
+     border-right:1px solid #31708e;
+     background-color: #f5f5f5 !important;
+     color: #1a3a4a;
+}
+/* Create an active/current tablink class */
+ .tab button.active {
+     background-color: #31708e !important;
+     color: white;
+}
+/* Style the tab content */
+ .tabcontent {
+ background: #eaeaea87;
+     margin-bottom:15px;
+     display: none;
+     padding: 6px 12px;
+     border: 1px solid #ccc;
+     border-top: none;
+}
+ a:hover,.fa:hover,.nav, .pagination, .carousel, .panel-title a,[type="radio"]:hover {
+     cursor:pointer !important;
+}
+ .dataTables_wrapper .dataTables_paginate .paginate_button {
+     padding : 0px !important;
+     margin-left: 0px !important;
+     display: inline !important;
+     border: 0px !important;
+}
+ .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+     border: 0px !important;
+}
+ label{
+     font-size:13px !important 
+}
+ accordion strong{
+     color:white !important;
+}
+/*----------------end------------------------*/
+/* ------------------------user Page -------------------------*/
+ .toAddress,.fromAddress{
+     margin-top:20px;
+}
+ .tooltip1,.tooltip2,.reqTip {
+     position: relative;
+}
+ .tooltip1 .tooltiptext,.tooltip2 .tooltiptext,.reqTip .tooltiptext {
+     visibility: hidden;
+     width: auto;
+     background-color: #555;
+     color: #fff;
+     text-align: center;
+     border-radius: 6px;
+     padding: 5px 5px;
+     position: absolute;
+     z-index: 1;
+     bottom: 125%;
+     left: 50%;
+     margin-left: -60px;
+     opacity: 0;
+     transition: opacity 1s;
+     bottom: 25px !important;
+}
+ .requestType .reqTip .tooltiptext{
+     padding:5px !important;
+     left: 55% !important;
+}
+ .tooltip1 .tooltiptext::after,.tooltip2 .tooltiptext::after,.reqTip .tooltiptext::after {
+     content: "";
+     position: absolute;
+     top: 100%;
+     left: 50%;
+     margin-left: -5px;
+     border-width: 5px;
+     border-style: solid;
+     border-color: #555 transparent transparent transparent;
+}
+ .tooltip1:hover .tooltiptext,.tooltip2:hover .tooltiptext ,.reqTip:hover .tooltiptext {
+     visibility: visible;
+     opacity: 10;
+     z-index:20;
+}
+ */
+/*--------------end-------------------------------*/
+ accordion * {
+    outline: 0 !important;
+}
+ textarea.form-control{
+     overflow: hidden;
+}
+ .datetimepicker-hours thead,.datetimepicker-minutes thead{
+     display:none !important;
+}
+ .logout{
+     right:25px;
+}
+ .navbar-nav>li>a {
+     padding:15px 20px !important;
+}
+ .errorpage_500{
+     background-image:url(/images/error_500.png);
+     background-repeat:no-repeat;
+     background-position:50% 50%;
+     background-size:30% 30%;
+     background-attachment: fixed;
+}
+ .errorpage_401{
+     background-image:url(/images/error_401.gif);
+     background-repeat:no-repeat;
+     background-position:55% 50%;
+     background-size:30% 60%;
+     background-attachment: fixed;
+}
+ .errorpage_403{
+     background-image:url(/images/error_403.png);
+     background-repeat:no-repeat;
+     background-position:50% 50%;
+     background-size:50% 30%;
+     background-attachment: fixed;
+}
+ .errorpage_404{
+     background-image:url(/images/error_404.png);
+     background-repeat:no-repeat;
+     background-position:50% 50%;
+     background-size:30% 30%;
+     background-attachment: fixed;
+}
+ .errorpage{
+     position:absolute;
+     left:80px;
+     top:80px;
+}
+ .cont,.log_cont {
+     position: absolute;
+     top:80px;
+}
+ .logo{
+     position: relative;
+}
+ .title{
+     font-size: 17px;
+     color:#1a3a4a !important;
+     top: 20px;
+     margin-bottom: 40px;
+     position: relative;
+}
+ .login .title{
+     color:white !important;
+}
+ .quinnox_logo{
+     padding: 5px 20px 5px 0px;
+     position: relative;
+     left:10px;
+}
+ /* .cab_logo{
+     position: relative;
+     bottom: 50px;
+     right: 20px;
+     float:right;
+     width:80px;
+} */
+ .login_well{
+     border: none !important;
+     background-color:#ffffff !important;
+}
+ #register{
+     padding:10px;
+     color:white;
+     float:right;
+}
+ .inputs{
+     clear:both;
+}
+ .navbar li{
+     font-size:14px !important;
+}
+ .btn,.bttn{
+     position: relative;
+     text-align: center;
+     color:black;
+     background-color: #81c8e8;
+}
+ .panel{
+     border: 0.8px solid !important;
+}
+ .foot{
+     padding-bottom: 30px;
+}
+ .navbar{
+     background-color: #1a3a4a !important;
+}
+ .navbar-nav>li>a,.navbar-brand{
+     color:white !important;
+}
+ .navbar-nav>li>a:hover,.navbar-brand:hover{
+     color:#9d9d9d !important;
+}
+ .Project_shift{
+     position:relative;
+     top:90px;
+     padding:30px;
+}
+ .personal_panel{
+     top:130px;
+}
+ .monthly_panel,.user_detail{
+     top:75px;
+}
+ .Adhoc_panel{
+     top:45px;
+}
+ .btn{
+     margin: 5px 5px;
+}
+ #flmHistoryPanel .panel-heading,.personal_panel .panel-heading,.Adhoc_panel .panel-heading,.monthly_panel .panel-heading,.user_detail .panel-heading,.Project_shift .panel-heading{
+     background: #31708e !important;
+     color: white !important;
+     font-size: 15px!important;
+}
+ .personal_panel .panel,.adminpage .panel,#adhocHistryPanel,#adhocViewPanel,#clientAddrsPanel,#residentAddrsPanel,#flmUpcomngPanel,#FlmHistryPanel,.Adhoc_panel .panel,.monthly_panel .panel,.user_detail .panel,.project_shift .panel,.Project_shift .panel{
+     background: rgba(26, 58, 74, 0.11) !important 
+}
+ #FlmHistryPanel,#flmUpcomngPanel,#adhocHistryPanel,#adhocViewPanel,#residentAddrsPanel,#clientAddrsPanel{
+     border:1px solid;
+}
+ a strong{
+     color: black;
+    ;
+}
+ .footer a {
+     color:#1a3a4a !important;
+     padding: 15px 5px !important;
+}
+ .footer .links{
+     padding:10px 0px !important;
+}
+ #file-id{
+     display:inline !important;
+}
+ .monthly_excel{
+     display:none;
+}
+ table {
+     width:100%;
+}
+ table .form-control{
+     height:30px !important;
+     padding:3px !important;
+}
+ /* td,th{
+     text-align:center !important;
+     font-size: 14px;
+     padding:4px !important;
+} */
+ #calendar input[type=text]{
+     text-align:center;
+}
+ .edit:hover,.cancel:hover,.edit_address:hover,.save_address:hover,.delete_address:hover{
+     cursor:pointer;
+}
+ .sidebar-menu li{
+     border-bottom:1px solid ;
+}
+ .pagination>.active>a{
+     color:white !important;
+     background-color: #31708e !important;
+}
+ .pagination>li>a{
+     color:#1a3a4a !important;
+     background-color: #d4d8da !important;
+     border: 1px solid #ececec !important;
+}
+ .pagination>.active>a:hover{
+     color:#1a3a4a !important;
+     background-color: #81c8e8 !important;
+}
+ .pagination>li>a:hover{
+     background-color:white !important;
+}
+ #employee_detail input,#personal_detail input, #personal_detail textarea,#project_detail input,.projectaccount input{
+     background:#ececec;
+     pointer-events: none;
+}
+ .Adhoc_panel .panel-heading{
+     cursor:pointer;
+}
+/*Dashboard CSS */
+ .homepage .home_well,.spocpage .spoc_well{
+     margin :10px 10px !important;
+}
+ .spoc_well,.home_well{
+     font-style: italic;
+     color: white !important;
+     border: 1px hidden rgba(26, 58, 74, 0.34) !important;
+     box-shadow: 3px 3px 5px #888888 !important;
+     border-radius: 8px !important;
+     background-color: #31708e !important;
+     height: 160px;
+}
+ .homepage,.spocpage{
+     position: relative;
+     background-color: rgba(26, 58, 74, 0.11) !important;
+}
+ .well{
+     padding-top:5px !important;
+}
+ .homepage{
+     top:175px !important;
+     padding-bottom: 25px;
+}
+ .adminpage{
+     top: 180px !important;
+     padding-bottom: 30px;
+}
+ .spocpage{
+     padding:0px 3px 10px 3px;
+     margin: 0px 25px 20px 25px !important;
+}
+ 
+ @media (max-width: 1000px) {
+     .homepage .home_well,.adminpage .admin_well,.spocpage .spoc_well{
+         margin :10px 0px !important;
+    }
+     .user{
+         float:left;
+    }
+     .navbar-right{
+         position:relative;
+             padding-left: 15px !important;
+    		margin-right: 5px !important;
+    }
+     .user_detail,.Adhoc_panel,.monthly_panel,.vendorCont,.projMapCont{
+         top:180px !important;
+    }
+     .errorpage_500{
+         background-size:40% 20% !important;
+    }
+     .errorpage_401{
+         background-size:30% 30% !important;
+    }
+     .errorpage_403{
+         background-size:70% 15% !important;
+    }
+     .errorpage_404{
+         background-size:50% 20% !important;
+    }
+     .navbar-nav>li>a {
+         padding:10px 15px !important;
+    }
+     .errorpage{
+         left:30px !important;
+         top:30px !important;
+    }
+     .footer{
+         font-size:12px !important;
+         position: relative !important;
+         top: 180px;
+         bottom: 15px;
+    }
+     .navbar .quinnox_logo{
+         left:10px !important;
+    }
+     .logout{
+         right:0px !important;
+    }
+     .dataTables_scroll {
+         overflow:auto;
+    }
+     .dynamicTile .col-sm-12,.dynamicTile .col-lg-xs-12{
+         padding:10px !important;
+    }
+}
+ @media (min-width: 1000px) {
+     .report{
+         top:120px;
+    }
+     .adminpage{
+         top: 50px !important;
+    }
+     .cont {
+         top: 60px !important;
+    }
+     .log_cont{
+         top: 100px !important;
+    }
+     .footer{
+         font-size :13px !important;
+         position:fixed !important;
+         bottom:10px !important;
+    }
+    .ajax-loader img {
+    left:5%;
+    }
+    
+}
+ @media (max-width: 450px) {
+     .title{
+         top: 0px;
+         padding-bottom: 20px;
+         font-size: 15px;
+    }
+     .quinnox_logo,.cab_logo {
+         left:0px !important;
+    }
+     .cab_logo{
+         width:75px;
+    }
+     .tablinks {
+         width:100% !important;
+    }
+     .hvr-bounce-to-right:before {
+         right:90% !importnat;
+    }
+     .bigicon {
+   font-size: 50px !important;
+   margin-top: 25px !important;
+   }
+   
+}
+ table{
+     overflow-x:auto;
+}

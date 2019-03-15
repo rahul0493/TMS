@@ -1,0 +1,29 @@
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii"></head>
+<body bgcolor="#ffffff" style="margin-top:0; margin-bottom:0; margin-left:0; margin-right:0;">
+<div>
+</div>
+</br>
+	<table align="center" style="border-collapse: collapse; font-family: Arial; font-size: 75%" cellpadding="5" width="90%">
+		<tr>
+				<td><br><br></td>
+			</tr>
+			<tr>
+<td colspan="2" style="background: #81AAD8">To view the shift plan, <a href="http://10.30.3.35:8080/tmsApp/tms/external/viewShiftPlanner?trackName=${trackName}&monthId=${monthId}&year=${year}&accountName=${accountName}&projectName=${projectName}&trackId=${trackId}&type=${type}&projectId=${projectId}&spocId=${spocId}">click here</a>
+
+				
+		</td>
+			</tr>
+	</table>
+	</br>
+		
+		</br>
+
+	</body>
+</html>
+
+
+
+
